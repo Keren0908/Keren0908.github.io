@@ -2,16 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://keren_akaya.com/2017/10/26/learning-test/</loc>
+    <loc>http://keren_akaya.com/2017/10/26/works-test/</loc>
     
-    <lastmod>2017-10-26T14:18:22.000Z</lastmod>
+    <lastmod>2017-10-26T18:10:26.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://keren_akaya.com/2017/10/26/works-test/</loc>
+    <loc>http://keren_akaya.com/links/index.html</loc>
     
-    <lastmod>2017-10-26T14:15:35.000Z</lastmod>
+    <lastmod>2017-10-26T18:03:57.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://keren_akaya.com/works/index.html</loc>
+    
+    <lastmod>2017-10-26T18:02:58.000Z</lastmod>
     
   </url>
   
@@ -19,13 +26,6 @@
     <loc>http://keren_akaya.com/2017/10/26/hexo-post/</loc>
     
     <lastmod>2017-10-26T13:59:44.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://keren_akaya.com/odds/index.html</loc>
-    
-    <lastmod>2017-10-26T04:38:33.000Z</lastmod>
     
   </url>
   
