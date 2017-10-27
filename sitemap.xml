@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://keren_akaya.com/works/index.html</loc>
+    
+    <lastmod>2017-10-27T14:59:28.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://keren_akaya.com/2017/10/26/hexo-implement/</loc>
     
     <lastmod>2017-10-27T05:27:26.000Z</lastmod>
@@ -19,13 +26,6 @@
     <loc>http://keren_akaya.com/2017/10/26/leetcode-amazon/</loc>
     
     <lastmod>2017-10-27T03:29:10.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://keren_akaya.com/works/index.html</loc>
-    
-    <lastmod>2017-10-26T18:02:58.000Z</lastmod>
     
   </url>
   
