@@ -1816,7 +1816,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #edab58;
+  background: #c116ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2678,4 +2678,14 @@ embed {
 }
 .links-of-blogroll-inline .links-of-blogroll-item {
   display: inline-block;
+}
+.mycenter {
+  text-align: center;
+}
+.mybtn {
+  float: right;
+}
+.posts-expand .post-body .fancybox img {
+  border: 0.2px #808080 solid;
+  margin: 0 auto;
 }
