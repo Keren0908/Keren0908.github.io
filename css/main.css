@@ -1816,7 +1816,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #c116ff;
+  background: #0dc7c8;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2678,6 +2678,12 @@ embed {
 }
 .links-of-blogroll-inline .links-of-blogroll-item {
   display: inline-block;
+}
+body {
+  background-image: url("/images/wallpaper5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 .mycenter {
   text-align: center;

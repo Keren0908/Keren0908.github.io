@@ -2,16 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://keren_akaya.com/about/index.html</loc>
+    
+    <lastmod>2017-10-27T19:18:00.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://keren_akaya.com/2017/10/27/Include-customized-css-js/</loc>
     
-    <lastmod>2017-10-27T17:50:47.000Z</lastmod>
+    <lastmod>2017-10-27T18:40:57.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://keren_akaya.com/works/index.html</loc>
     
-    <lastmod>2017-10-27T17:46:18.000Z</lastmod>
+    <lastmod>2017-10-27T18:38:33.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://keren_akaya.com/colorGame/index.html</loc>
+    
+    <lastmod>2017-10-27T18:35:50.000Z</lastmod>
     
   </url>
   
@@ -33,13 +47,6 @@
     <loc>http://keren_akaya.com/2017/10/26/leetcode-amazon/</loc>
     
     <lastmod>2017-10-27T03:29:10.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://keren_akaya.com/about/index.html</loc>
-    
-    <lastmod>2017-10-26T02:28:02.000Z</lastmod>
     
   </url>
   
