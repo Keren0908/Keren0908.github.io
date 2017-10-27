@@ -2,30 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://keren_akaya.com/2017/10/26/imgtest/</loc>
+    <loc>http://keren_akaya.com/2017/10/26/hexo-implement/</loc>
     
-    <lastmod>2017-10-27T03:13:45.000Z</lastmod>
+    <lastmod>2017-10-27T05:27:26.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://keren_akaya.com/links/index.html</loc>
     
-    <lastmod>2017-10-27T03:07:22.000Z</lastmod>
+    <lastmod>2017-10-27T04:42:12.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://keren_akaya.com/2017/10/26/learning-test/</loc>
+    <loc>http://keren_akaya.com/2017/10/26/leetcode-amazon/</loc>
     
-    <lastmod>2017-10-26T19:30:12.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://keren_akaya.com/2017/10/26/works-test/</loc>
-    
-    <lastmod>2017-10-26T18:10:26.000Z</lastmod>
+    <lastmod>2017-10-27T03:29:10.000Z</lastmod>
     
   </url>
   
@@ -33,20 +26,6 @@
     <loc>http://keren_akaya.com/works/index.html</loc>
     
     <lastmod>2017-10-26T18:02:58.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://keren_akaya.com/2017/10/26/hexo-post/</loc>
-    
-    <lastmod>2017-10-26T13:59:44.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://keren_akaya.com/2017/10/25/How-to-set-up-my-site/</loc>
-    
-    <lastmod>2017-10-26T02:31:34.000Z</lastmod>
     
   </url>
   
@@ -68,20 +47,6 @@
     <loc>http://keren_akaya.com/tags/index.html</loc>
     
     <lastmod>2017-10-26T02:26:47.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://keren_akaya.com/2017/10/25/hello-keren/</loc>
-    
-    <lastmod>2017-10-26T01:32:26.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://keren_akaya.com/2017/10/25/hello-world/</loc>
-    
-    <lastmod>2017-10-26T01:28:02.000Z</lastmod>
     
   </url>
   
