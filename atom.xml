@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://keren_akaya.com/"/>
-  <updated>2017-10-26T19:23:20.000Z</updated>
+  <updated>2017-10-27T03:13:45.000Z</updated>
   <id>http://keren_akaya.com/</id>
   
   <author>
@@ -21,14 +21,13 @@
     <link href="http://keren_akaya.com/2017/10/26/imgtest/"/>
     <id>http://keren_akaya.com/2017/10/26/imgtest/</id>
     <published>2017-10-26T19:13:42.000Z</published>
-    <updated>2017-10-26T19:23:20.000Z</updated>
+    <updated>2017-10-27T03:13:45.000Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="/images/test.jpg" class="full-image" alt="test"></p><p>to test full img</p><a id="more"></a>]]></content>
+    <content type="html"><![CDATA[<p><img src="/images/test.jpg" class="full-image" alt="test"></p><a id="more"></a>]]></content>
     
     <summary type="html">
     
       &lt;p&gt;&lt;img src=&quot;/images/test.jpg&quot; class=&quot;full-image&quot; alt=&quot;test&quot;&gt;&lt;/p&gt;
-&lt;p&gt;to test full img&lt;/p&gt;
     
     </summary>
     
