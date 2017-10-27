@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://keren_akaya.com/works/index.html</loc>
+    
+    <lastmod>2017-10-27T19:27:43.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://keren_akaya.com/about/index.html</loc>
     
     <lastmod>2017-10-27T19:21:00.000Z</lastmod>
@@ -12,13 +19,6 @@
     <loc>http://keren_akaya.com/2017/10/27/Include-customized-css-js/</loc>
     
     <lastmod>2017-10-27T18:40:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://keren_akaya.com/works/index.html</loc>
-    
-    <lastmod>2017-10-27T18:38:33.000Z</lastmod>
     
   </url>
   
