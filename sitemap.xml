@@ -2,16 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://keren_akaya.com/2017/10/27/art/</loc>
+    <loc>http://keren_akaya.com/works/index.html</loc>
     
-    <lastmod>2017-10-27T20:42:33.000Z</lastmod>
+    <lastmod>2017-10-29T17:34:47.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://keren_akaya.com/works/index.html</loc>
+    <loc>http://keren_akaya.com/patatap/index.html</loc>
     
-    <lastmod>2017-10-27T19:41:56.000Z</lastmod>
+    <lastmod>2017-10-29T17:33:45.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://keren_akaya.com/2017/10/27/art/</loc>
+    
+    <lastmod>2017-10-27T20:42:33.000Z</lastmod>
     
   </url>
   
@@ -68,6 +75,13 @@
     <loc>http://keren_akaya.com/tags/index.html</loc>
     
     <lastmod>2017-10-26T02:26:47.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://keren_akaya.com/patatap/sounds/README.html</loc>
+    
+    <lastmod>2015-11-09T00:33:01.000Z</lastmod>
     
   </url>
   
