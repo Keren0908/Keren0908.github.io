@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://keren_akaya.com/"/>
-  <updated>2017-10-27T20:42:33.000Z</updated>
+  <updated>2017-11-01T05:08:34.000Z</updated>
   <id>http://keren_akaya.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Collection of konomanga</title>
+    <link href="http://keren_akaya.com/2017/11/01/sugoi/"/>
+    <id>http://keren_akaya.com/2017/11/01/sugoi/</id>
+    <published>2017-11-01T05:01:03.000Z</published>
+    <updated>2017-11-01T05:08:34.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="../images/sugoi.png"></p><p>I want to do build a collection of konomanga. Easy for myself to search the manga.</p><p>想要慢慢开始做一个汇总。这本漫画真厉害！的汇总。记录一下自己看过的或者没看过的，以后好找。哈哈。</p><p>このマンガがすごい!</p><a id="more"></a><p>它的网站是(WEB)：<a href="http://konomanga.jp/" target="_blank" rel="external">このマンガがすごい!</a> </p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;../images/sugoi.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;I want to do build a collection of konomanga. Easy for myself to search the manga.&lt;/p&gt;
+&lt;p&gt;想要慢慢开始做一个汇总。这本漫画真厉害！的汇总。记录一下自己看过的或者没看过的，以后好找。哈哈。&lt;/p&gt;
+&lt;p&gt;このマンガがすごい!&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="odds" scheme="http://keren_akaya.com/categories/odds/"/>
+    
+    
+      <category term="このマンガがすごい!" scheme="http://keren_akaya.com/tags/%E3%81%93%E3%81%AE%E3%83%9E%E3%83%B3%E3%82%AC%E3%81%8C%E3%81%99%E3%81%94%E3%81%84/"/>
+    
+  </entry>
   
   <entry>
     <title>腰酸背痛</title>
