@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="hexo," />
+  <meta name="keywords" content="leetcode," />
 
 
 
@@ -81,18 +81,18 @@
 
 
 
-<meta name="description" content="IntroThis may be big progress in my learning road,lol.   All in all, I implemented my first blog based on GitPage + Hexo. After several days struggles, I finally accomplished the basic framework of it">
-<meta name="keywords" content="hexo">
+<meta name="description" content="突然得知19号就是career fair, 吓得我精神抖擞。 一定要坚持！！">
+<meta name="keywords" content="leetcode">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Implement my Hexo">
-<meta property="og:url" content="http://keren_akaya.com/2017/10/26/hexo-implement/index.html">
+<meta property="og:title" content="Leetcode Review(2)">
+<meta property="og:url" content="http://keren_akaya.com/2018/01/08/Leetcode-Review-2/index.html">
 <meta property="og:site_name" content="OTAKISM">
-<meta property="og:description" content="IntroThis may be big progress in my learning road,lol.   All in all, I implemented my first blog based on GitPage + Hexo. After several days struggles, I finally accomplished the basic framework of it">
+<meta property="og:description" content="突然得知19号就是career fair, 吓得我精神抖擞。 一定要坚持！！">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2017-10-27T05:27:26.000Z">
+<meta property="og:updated_time" content="2018-01-09T04:35:27.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Implement my Hexo">
-<meta name="twitter:description" content="IntroThis may be big progress in my learning road,lol.   All in all, I implemented my first blog based on GitPage + Hexo. After several days struggles, I finally accomplished the basic framework of it">
+<meta name="twitter:title" content="Leetcode Review(2)">
+<meta name="twitter:description" content="突然得知19号就是career fair, 吓得我精神抖擞。 一定要坚持！！">
 
 
 
@@ -122,13 +122,13 @@
 
 
 
-  <link rel="canonical" href="http://keren_akaya.com/2017/10/26/hexo-implement/"/>
+  <link rel="canonical" href="http://keren_akaya.com/2018/01/08/Leetcode-Review-2/"/>
 
 
 
 
 
-  <title>Implement my Hexo | OTAKISM</title>
+  <title>Leetcode Review(2) | OTAKISM</title>
   
 
 
@@ -272,7 +272,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://keren_akaya.com/2017/10/26/hexo-implement/">
+    <link itemprop="mainEntityOfPage" href="http://keren_akaya.com/2018/01/08/Leetcode-Review-2/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="KerenAka">
@@ -289,7 +289,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Implement my Hexo</h1>
+          <h1 class="post-title" itemprop="name headline">Leetcode Review(2)</h1>
         
 
         <div class="post-meta">
@@ -301,8 +301,8 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-10-26T10:17:05-04:00">
-                2017-10-26
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-01-08T23:21:16-05:00">
+                2018-01-08
               </time>
             
 
@@ -324,8 +324,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/learning/" itemprop="url" rel="index">
-                    <span itemprop="name">learning</span>
+                  <a href="/categories/Learning/" itemprop="url" rel="index">
+                    <span itemprop="name">Learning</span>
                   </a>
                 </span>
 
@@ -343,8 +343,8 @@
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a href="/2017/10/26/hexo-implement/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count hc-comment-count" data-xid="2017/10/26/hexo-implement/" itemprop="commentsCount"></span>
+                <a href="/2018/01/08/Leetcode-Review-2/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count hc-comment-count" data-xid="2018/01/08/Leetcode-Review-2/" itemprop="commentsCount"></span>
                 </a>
               </span>
               <!--/noindex-->
@@ -373,46 +373,38 @@
       
 
       
-        <h2 id="Intro"><a href="#Intro" class="headerlink" title="Intro"></a>Intro</h2><p>This may be big progress in my learning road,lol.  </p>
-<p>All in all, I implemented my first blog based on GitPage + Hexo. After several days struggles, I finally accomplished the basic framework of it. So I try to record how I did this ^.^.</p>
-<p>This article would consists of three part:</p>
-<ol>
-<li>Install Hexo</li>
-<li>Hexo Instruction</li>
-</ol>
+        <p>突然得知19号就是career fair, 吓得我精神抖擞。</p>
+<p>一定要坚持！！</p>
 <a id="more"></a>
+<h2 id="Leetcode-98-Validate-Binary-Search-Tree"><a href="#Leetcode-98-Validate-Binary-Search-Tree" class="headerlink" title="Leetcode 98 Validate Binary Search Tree"></a>Leetcode 98 Validate Binary Search Tree</h2><h4 id="Description"><a href="#Description" class="headerlink" title="Description:"></a>Description:</h4><p>Given a binary tree, determine if it is a valid binary search tree (BST).</p>
+<p> Assume aBST is defined as follows:</p>
+<p> The leftsubtree of a node contains only nodes with keys less than the node’s key.</p>
+<p>The rightsubtree of a node contains only nodes with keys greater than the node’s key.</p>
+<p>Both theleft and right subtrees must also be binary search trees.</p>
+<h4 id="Methods"><a href="#Methods" class="headerlink" title="Methods:"></a>Methods:</h4><p>想法就是，按照中序遍历的顺序遍历这个binary tree, 然后check是否node的值是递增的（！注意，不是非减）</p>
+<p>需要栈的辅助（非递归的中序遍历）</p>
+<p>并且使while循环不断进行的条件是：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">while(!stack.isEmpty() || root!=null)</div><div class="line">while(root!=null)</div><div class="line">&#123;</div><div class="line">	left node blah</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>运行到整棵树的根节点和一开始的时候，会出现stack.isEmpty()==true的情况，但此时root!=null;</p>
+<p>其他时候都是root会等于null，但是stack非空。</p>
+<p>节点值比较小，所有用long作为tmp的type。</p>
+<h4 id="Code："><a href="#Code：" class="headerlink" title="Code："></a>Code：</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div></pre></td><td class="code"><pre><div class="line">/**</div><div class="line"> * Definition for a binary tree node.</div><div class="line"> * public class TreeNode &#123;</div><div class="line"> *     int val;</div><div class="line"> *     TreeNode left;</div><div class="line"> *     TreeNode right;</div><div class="line"> *     TreeNode(int x) &#123; val = x; &#125;</div><div class="line"> * &#125;</div><div class="line"> */</div><div class="line">class Solution &#123;</div><div class="line">    public boolean isValidBST(TreeNode root) &#123;</div><div class="line">        if(root == null) return true;</div><div class="line">        </div><div class="line">        </div><div class="line">        Stack&lt;TreeNode&gt; stack = new Stack&lt;TreeNode&gt;();</div><div class="line">        long tmp = Long.MIN_VALUE;</div><div class="line">        </div><div class="line"> </div><div class="line">        while(!stack.isEmpty()||root!=null)&#123;</div><div class="line">            while(root!=null)&#123;</div><div class="line">            stack.push(root);</div><div class="line">            root = root.left;    </div><div class="line">        &#125;</div><div class="line">            root = stack.pop();</div><div class="line">            if(root.val&lt;=tmp) return false;</div><div class="line">            tmp = root.val;</div><div class="line">            root = root.right;</div><div class="line">        &#125;</div><div class="line">        return true; </div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>大佬，我是真的不会dfs。</p>
+<h2 id="Leetcode-4-Median-of-Two-Sorted-Arrays"><a href="#Leetcode-4-Median-of-Two-Sorted-Arrays" class="headerlink" title="Leetcode 4 Median of Two Sorted Arrays"></a>Leetcode 4 Median of Two Sorted Arrays</h2><h4 id="Description-1"><a href="#Description-1" class="headerlink" title="Description:"></a>Description:</h4><p>Thereare two sorted arrays nums1 and nums2 of size m and n respectively.</p>
+<p>Find the medianof the two sorted arrays. The overall run time complexity should be O(log(m+n)).</p>
+<h4 id="Methods-1"><a href="#Methods-1" class="headerlink" title="Methods:"></a>Methods:</h4><p>这题，我是脑子真的转不过来。</p>
+<p>先用最土的方法吧: Merge sort. Find the median.</p>
+<h4 id="Code"><a href="#Code" class="headerlink" title="Code:"></a>Code:</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div></pre></td><td class="code"><pre><div class="line">class Solution &#123;</div><div class="line">    public double findMedianSortedArrays(int[] nums1, int[] nums2) &#123;</div><div class="line">        </div><div class="line">        int l1 = nums1.length;</div><div class="line">        int l2 = nums2.length;</div><div class="line">        if(l1==0) return l2%2==0?(nums2[l2/2]+nums2[l2/2-1])/2.0:nums2[l2/2];</div><div class="line">        if(l2==0) return l1%2==0?(nums1[l1/2]+nums1[l1/2-1])/2.0:nums1[l1/2];</div><div class="line">        </div><div class="line">        int[] aux = new int[l1+l2];</div><div class="line">        </div><div class="line">        int i=0;</div><div class="line">        int j=0;</div><div class="line">        int k=0;</div><div class="line">        while(i&lt;l1 || j&lt;l2)&#123;</div><div class="line">            if(i&lt;l1 &amp;&amp; j&lt;l2)&#123;</div><div class="line">                if(nums1[i]&lt;nums2[j])</div><div class="line">                    aux[k++]=nums1[i++];</div><div class="line">                else</div><div class="line">                    aux[k++]=nums2[j++];</div><div class="line">            &#125;</div><div class="line">            else if(i&gt;=l1)</div><div class="line">                aux[k++]=nums2[j++];</div><div class="line">            else if(j&gt;=l2)</div><div class="line">                aux[k++]=nums1[i++];</div><div class="line">            </div><div class="line">        &#125;</div><div class="line">        return (l1+l2)%2==0?(aux[(l1+l2)/2]+aux[(l1+l2)/2-1])/2.0:aux[(l1+l2)/2];</div><div class="line">        </div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>改天回来再做！</p>
+<h2 id="Leetcode-7-Reverse-Integer"><a href="#Leetcode-7-Reverse-Integer" class="headerlink" title="Leetcode 7 Reverse Integer"></a>Leetcode 7 Reverse Integer</h2><h4 id="Description-2"><a href="#Description-2" class="headerlink" title="Description:"></a>Description:</h4><p>Given a 32-bit signed integer, reverse digits of an integer.</p>
+<h4 id="Methods-2"><a href="#Methods-2" class="headerlink" title="Methods:"></a>Methods:</h4><p>这题比较简单</p>
+<p>但是有一个tricky的地方，就是如何判断是否overflow</p>
+<p> 可以在每次乘10的时候，比较乘10之前和乘10之后的除了个位之外的数是否相同。</p>
+<p>如果不同，就是溢出了。</p>
+<h4 id="Code-1"><a href="#Code-1" class="headerlink" title="Code:"></a>Code:</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line">class Solution &#123;</div><div class="line">    public int reverse(int x) &#123;</div><div class="line">        int rev=0;</div><div class="line">        while(x!=0)&#123;</div><div class="line">            int tail = rev;</div><div class="line">            rev = rev*10+x%10;</div><div class="line">            if(tail!=rev/10) return 0;</div><div class="line">            x=x/10;           </div><div class="line">        &#125;</div><div class="line">        return rev;      </div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <hr>
-<h2 id="Install-Hexo"><a href="#Install-Hexo" class="headerlink" title="Install Hexo"></a>Install Hexo</h2><h3 id="Hexo-environment-configeration"><a href="#Hexo-environment-configeration" class="headerlink" title="Hexo environment configeration"></a>Hexo environment configeration</h3><p>Just before installing Hexo, we need to install some dependencies. I use <a href="https://github.com/Homebrew/legacy-homebrew" target="_blank" rel="external">Homebrew</a> to install them, so I recommend Mac’s users to use homebrew. Very helpful~</p>
-<p>Please have Homebrew installed first.</p>
-<h4 id="Git"><a href="#Git" class="headerlink" title="Git"></a>Git</h4><p>Open your terminal and type:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ brew install git</div></pre></td></tr></table></figure>
-<p>Use Homebrew to install, Git would be installed in /usr/local/Cellar/git/.</p>
-<h4 id="Node-js"><a href="#Node-js" class="headerlink" title="Node.js"></a>Node.js</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ brew install node</div></pre></td></tr></table></figure>
-<p>Use Homebrew to install, Git would be installed in /usr/local/Cellar/node/.</p>
-<h4 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h4><p>Open your terminal and type:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo -g</div></pre></td></tr></table></figure>
-<p>Wow, finished!</p>
-<p>If we want to update our hexo, simply type:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm update hexo -g</div></pre></td></tr></table></figure>
-<p>Then, we initiate a folder to save files of your site:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo init &lt;folder&gt;</div></pre></td></tr></table></figure>
-<p>Wait a second, we will see</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ INFO Start blogging with Hexo!</div></pre></td></tr></table></figure>
-<p>Yeah, we finished!</p>
-<hr>
-<h3 id="Hexo-Instruction"><a href="#Hexo-Instruction" class="headerlink" title="Hexo Instruction"></a>Hexo Instruction</h3><h4 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new &quot;POST NAME&quot;</div></pre></td></tr></table></figure>
-<h4 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>or</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo s</div></pre></td></tr></table></figure>
-<p>then we can debug our site in localhost.</p>
-<h4 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h4><p>After we new a post, we will have .md file under /yourBlogFolder/source/_post folder. Use this instruction to generate static files(html) for this .md</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>or</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo g</div></pre></td></tr></table></figure>
-<h4 id="Deploy"><a href="#Deploy" class="headerlink" title="Deploy"></a>Deploy</h4><p>Once you think your modification finished, just deploy it to your git.</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>or</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo d</div></pre></td></tr></table></figure>
+<p>闲话：</p>
+<p>网页快做来不及啦！！</p>
 
       
     </div>
@@ -430,7 +422,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/hexo/" rel="tag"># hexo</a>
+            <a href="/tags/leetcode/" rel="tag"># leetcode</a>
           
         </div>
       
@@ -443,15 +435,15 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/2018/01/07/Leetcode-Review-1/" rel="next" title="Leetcode Review (1)">
+                <i class="fa fa-chevron-left"></i> Leetcode Review (1)
+              </a>
+            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2017/10/26/leetcode-amazon/" rel="prev" title="leetcode --amazon">
-                leetcode --amazon <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -635,7 +627,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Intro"><span class="nav-text">Intro</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Install-Hexo"><span class="nav-text">Install Hexo</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Hexo-environment-configeration"><span class="nav-text">Hexo environment configeration</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Git"><span class="nav-text">Git</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Node-js"><span class="nav-text">Node.js</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Hexo"><span class="nav-text">Hexo</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Hexo-Instruction"><span class="nav-text">Hexo Instruction</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Create-a-new-post"><span class="nav-text">Create a new post</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Run-server"><span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Generate-static-files"><span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Deploy"><span class="nav-text">Deploy</span></a></li></ol></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Leetcode-98-Validate-Binary-Search-Tree"><span class="nav-text">Leetcode 98 Validate Binary Search Tree</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Description"><span class="nav-text">Description:</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Methods"><span class="nav-text">Methods:</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Code："><span class="nav-text">Code：</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Leetcode-4-Median-of-Two-Sorted-Arrays"><span class="nav-text">Leetcode 4 Median of Two Sorted Arrays</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Description-1"><span class="nav-text">Description:</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Methods-1"><span class="nav-text">Methods:</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Code"><span class="nav-text">Code:</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Leetcode-7-Reverse-Integer"><span class="nav-text">Leetcode 7 Reverse Integer</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Description-2"><span class="nav-text">Description:</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Methods-2"><span class="nav-text">Methods:</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Code-1"><span class="nav-text">Code:</span></a></li></ol></li></ol></li></ol></div>
             
 
           </div>
@@ -802,7 +794,7 @@
 		_hcwp.push({widget:"Bloggerstream", widget_id: 97012, selector:".hc-comment-count", label: "{\%COUNT%\}" });
 
 		
-		_hcwp.push({widget:"Stream", widget_id: 97012, xid: "2017/10/26/hexo-implement/"});
+		_hcwp.push({widget:"Stream", widget_id: 97012, xid: "2018/01/08/Leetcode-Review-2/"});
 		
 
 		(function() {
