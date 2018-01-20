@@ -1,0 +1,54 @@
+
+	
+	.navbar{ 
+		border-radius: 0px;
+
+	}
+	.navbar-default{
+		background-color: rgba(0,0,0,.0001);
+		border-color: rgba(0,0,0,.075);
+
+	}
+	.navbar-default .navbar-brand{
+		color:white;
+	}
+	.navbar-brand{
+		font-size: 2em;
+		/*font-family: 'Shadows Into Light', cursive;*/
+		font-family: 'Indie Flower', cursive;
+	}
+
+	.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    	color: white;
+   		background-color:rgba(225,225,225,0.15);
+	}
+	.navbar-default .navbar-nav>li>a{
+		color:white;
+	}
+	#content{
+		text-align: center;
+		
+		
+	}
+	hr{
+		
+		width:300px;
+	}
+	h1{
+		font-size: 3em;
+	}
+
+
+	
+	.btn-default{
+		background-color: rgba(255,255,255,.15);
+		color:white;
+	}
+	.setblank{
+		padding-top:14%;
+	}
+	.setbackground{
+		padding-top: 20px;
+		padding-bottom: 20px;
+		background-color:rgba(0,0,0,0.40);
+	}

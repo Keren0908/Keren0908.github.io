@@ -2,6 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://keren_akaya.com/works/index.html</loc>
+    
+    <lastmod>2018-01-20T05:42:22.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://keren_akaya.com/orient/index.html</loc>
+    
+    <lastmod>2018-01-20T05:38:27.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://keren_akaya.com/orient/base.html</loc>
+    
+    <lastmod>2018-01-20T05:26:42.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://keren_akaya.com/imageStore/index.html</loc>
+    
+    <lastmod>2018-01-20T05:18:50.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://keren_akaya.com/2018/01/14/Lintcode-review-7/</loc>
     
     <lastmod>2018-01-15T04:41:34.000Z</lastmod>
@@ -61,13 +89,6 @@
     <loc>http://keren_akaya.com/2017/11/01/sugoi/</loc>
     
     <lastmod>2017-11-01T05:23:18.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://keren_akaya.com/works/index.html</loc>
-    
-    <lastmod>2017-10-29T17:38:48.000Z</lastmod>
     
   </url>
   

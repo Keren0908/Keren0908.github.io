@@ -1,0 +1,34 @@
+footer{
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 35px;
+    text-align: center;
+    color: #CCC;
+}
+
+footer p {
+    padding: 10.5px;
+    margin: 0px;
+    line-height: 100%;
+}
+
+
+
+.saying:after {  
+  content: "|";  
+  font-family: Arial, sans-serif;  
+  font-size: 1em;  
+  line-height:1;  
+  display: inline-block;  
+  vertical-align: baseline;  
+  
+  animation: caret 500ms infinite;  
+} 
+pre{
+    background-color: white;
+    border: none;
+    font-size: 3em;
+} 

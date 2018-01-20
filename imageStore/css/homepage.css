@@ -1,0 +1,31 @@
+.navbar{ 
+		border-radius: 0px;
+
+	}
+	.navbar-default{
+		background-color: rgba(0,0,0,.0001);
+		border-color: rgba(0,0,0,.075);
+
+	}
+	body .navbar-default .navbar-brand{
+		color:black;
+	}
+	.navbar-brand{
+		font-size: 2em;
+		/*font-family: 'Shadows Into Light', cursive;*/
+		/*font-family: 'Indie Flower', cursive;*/
+	}
+
+	.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    	color: black;
+   		background-color:rgba(225,225,225,0.15);
+	}
+	.navbar-default .navbar-nav>li>a{
+		color:black;
+	}
+
+
+
+
+
+/* Style the Image Used to Trigger the Modal */

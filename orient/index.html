@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+   
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="static/css/base.css">
+    <link rel="stylesheet" type="text/css" href="static/css/welcome.css">
+     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="static/js/welcome.js"></script>
+    <title>Welcome-Orient Express</title>
+   
+
+   <style>
+   .navbar-inverse{
+    background-color: white;
+    border-color:white;
+    border-bottom: solid 1px black;
+    margin-top:15px;
+    
+    }
+    .navbar-brand{
+        border-top: solid 1px black;
+        border-left: solid 1px black;
+        border-right: solid 1px black;
+        border-top-left-radius: 1em ;
+        border-top-right-radius: 1em;
+    }
+    .navbar-inverse .navbar-brand{
+        color:black;
+    }
+    .navbar-inverse .navbar-nav>li>a{
+        color:black;
+    }
+   .navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover{
+        color:gray;
+    }
+    .navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover{
+        color:gray;
+    }
+    
+</style>
+   
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+    <div class="container">
+ 
+
+        <div class="navbar-header">
+            
+            <img height="50px" src="http://78.media.tumblr.com/613837f6b679277b4d7ef5cee5427c27/tumblr_mla8v0CgVj1qgwp67o1_400.gif">
+            <a href="#" class="navbar-brand">Orient Express</a>
+           
+        </div>
+        <ul class="nav navbar-nav">
+            <li style="display:none;"><a href="#">About</a></li>
+            <li style="display:none"><a href="#">Contact</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Register</a></li>
+            <li><a href="#">Login</a></li>
+        </ul>
+    </div>
+    </nav>
+
+
+    <div class="container">
+  <pre id="aa" class="saying"></pre>  
+<div style="display:none" id="w">
+# Welcome To Orient Express.
+
+# Ready to Start Your Challenge? 
+
+# ......^-^
+
+</div>
+</div>
+    <footer style="background-color:black" class="nav-footer">
+      <div class="container">
+        <p>© 2017 <a style="color:white; text-decoration:none;" href="#">Orient Express</a></p>
+      </div>
+    </footer>  
+    <script src="https://s3.amazonaws.com/zappa-static-files-yuanyi/static/js/lib/aws-cognito-sdk.min.js"></script>
+    <script src="https://s3.amazonaws.com/zappa-static-files-yuanyi/static/js/lib/amazon-cognito-identity.min.js"></script>
+    <script src="https://s3.amazonaws.com/zappa-static-files-yuanyi/static/js/config.js"></script>
+    <script src="https://s3.amazonaws.com/zappa-static-files-yuanyi/static/js/cognito-auth.js"></script>
+<!--     <script src="/static/js/cognito-auth.js"></script> -->
+</body>
+</html>
