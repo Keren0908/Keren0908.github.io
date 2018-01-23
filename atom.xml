@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://keren_akaya.com/"/>
-  <updated>2018-01-15T04:41:34.000Z</updated>
+  <updated>2018-01-23T05:02:14.374Z</updated>
   <id>http://keren_akaya.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>String&amp;StringBuffer&amp;StringBuilder</title>
+    <link href="http://keren_akaya.com/2018/01/22/String-StringBuffer-StringBuilder/"/>
+    <id>http://keren_akaya.com/2018/01/22/String-StringBuffer-StringBuilder/</id>
+    <published>2018-01-22T17:53:26.000Z</published>
+    <updated>2018-01-23T05:02:14.374Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="String-StringBuffer-amp-StringBuilder"><a href="#String-StringBuffer-amp-StringBuilder" class="headerlink" title="String , StringBuffer &amp; StringBuilder"></a>String , StringBuffer &amp; StringBuilder</h2><p>这三种东西，我其实一直不太理解区别，在网上搜集了一些资料，加深记忆一下。</p><p>Speed ：StringBuilder &gt; StringBuffer &gt; String</p><ul><li><p>String是字符串常量，是literal不可变的对象。</p><p>怎么说不可变呢</p><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">String s = <span class="string">"abc"</span>;</div><div class="line">s = s+d; <span class="comment">//s=abcd</span></div></pre></td></tr></table></figure><p>然而其实jvm并不是改变了原本的对象，而是先创建了一个新的对象（值为abcd）然后将引用s指向后创建的对象。换言之，我们之前创建的对象并没有被改变，而是被当成垃圾回收掉了。不停创建新的对象，所以速度慢慢的。</p></li><li><p>StringBuffer &amp; StringBuilder是字符串变量，是可以改变的对象。我们在用他们对字符串进行操作的时候，实际上是在一个对象操作。而不是像string那样创建一些新的对象操作，速度upup。</p></li><li><p>StringBuilder&amp;StringBuffer</p><p>前者是线程非安全的，后者是线程安全的。</p></li></ul><h4 id="Some-methods-of-StringBuffer"><a href="#Some-methods-of-StringBuffer" class="headerlink" title="Some methods of StringBuffer"></a>Some methods of StringBuffer</h4><table><thead><tr><th>No.</th><th>Description</th></tr></thead><tbody><tr><td>1</td><td>public StringBuffer append(String s)</td></tr><tr><td>2</td><td>public StringBuffer reverse()</td></tr><tr><td>3</td><td>public delete(int start, int end)</td></tr><tr><td>4</td><td>Public insert(int offset, int i)  将int参数以字符串形式插入序列</td></tr><tr><td>5</td><td>replace(int start, int end, String str)</td></tr></tbody></table><table><thead><tr><th>No.</th><th>Description</th></tr></thead><tbody><tr><td>1</td><td>int capacity()</td></tr><tr><td>2</td><td>char charAt(int index)</td></tr><tr><td>3</td><td>void ensureCapacity(int minimumCapacity)确保容量至少等于制定的最小值</td></tr><tr><td>4</td><td>void getChars(int srcBegin, int srcEnd, char[] dst, int dstBegin) 将字符从此序列复制到目标字符数组dst</td></tr><tr><td>5</td><td>int indexOf(String str [int fromIndex])</td></tr><tr><td>6</td><td>int lastIndexOf(String str [int fromIndex])</td></tr><tr><td>7</td><td>void setCharAt(int index, char ch)</td></tr><tr><td>8</td><td>String substring()</td></tr><tr><td>9</td><td>String toString()</td></tr></tbody></table><p>To sum up, </p><ol><li>如何数据量少，用String；</li></ol><ol><li>如果单线程操作字符串缓冲区下，操作大量数据 StringBuilder；</li><li>同理，多线程下，用StringBuffer。</li></ol><p>自己看看学习吧。很多是从网上借鉴的。</p><p><a href="https://www.cnblogs.com/A_ming/archive/2010/04/13/1711395.html" target="_blank" rel="external">https://www.cnblogs.com/A_ming/archive/2010/04/13/1711395.html</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;String-StringBuffer-amp-StringBuilder&quot;&gt;&lt;a href=&quot;#String-StringBuffer-amp-StringBuilder&quot; class=&quot;headerlink&quot; title=&quot;String , StringBuf
+      
+    
+    </summary>
+    
+      <category term="learning" scheme="http://keren_akaya.com/categories/learning/"/>
+    
+    
+      <category term="java" scheme="http://keren_akaya.com/tags/java/"/>
+    
+  </entry>
   
   <entry>
     <title>Lintcode review(7)</title>
