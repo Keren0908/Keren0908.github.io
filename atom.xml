@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://keren_akaya.com/"/>
-  <updated>2018-01-26T20:04:16.854Z</updated>
+  <updated>2018-01-26T20:13:19.208Z</updated>
   <id>http://keren_akaya.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>How to install tensorflow</title>
+    <link href="http://keren_akaya.com/2018/01/26/How-to-install-tensorflow/"/>
+    <id>http://keren_akaya.com/2018/01/26/How-to-install-tensorflow/</id>
+    <published>2018-01-26T20:05:09.000Z</published>
+    <updated>2018-01-26T20:13:19.208Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Install-tensor-flow-in-virtualenv"><a href="#Install-tensor-flow-in-virtualenv" class="headerlink" title="Install tensor flow in virtualenv"></a>Install tensor flow in virtualenv</h2><p>Configuration:</p><ul><li>macOS High Sierra 10.13.2</li><li>Virtualenv python3.6</li><li>Tensorflow 1.3.0</li></ul><hr><ol><li><p>Create a virtualenv environment.</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">pip3 install --upgrade virtualenv</div><div class="line"></div><div class="line">virtualenv -- system-site-packages -p python3 ~/tensorflow #python3</div></pre></td></tr></table></figure></li><li><p>Activate the virtualenv environment.</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">source ~/tensorflow/bin/activate</div></pre></td></tr></table></figure></li><li><p>Install tensor flow.</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">(tensorflow)$ pip3 install --upgrade tensorflow</div></pre></td></tr></table></figure></li><li><p>If you can’t import tensorflow in promt. Issue a command of the following format.</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">pip3 install --upgrade</div><div class="line">\https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.3.0-py3-none-any.whl</div></pre></td></tr></table></figure></li></ol><p>结束！</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;Install-tensor-flow-in-virtualenv&quot;&gt;&lt;a href=&quot;#Install-tensor-flow-in-virtualenv&quot; class=&quot;headerlink&quot; title=&quot;Install tensor flow in vir
+      
+    
+    </summary>
+    
+      <category term="learning" scheme="http://keren_akaya.com/categories/learning/"/>
+    
+    
+      <category term="tensorflow" scheme="http://keren_akaya.com/tags/tensorflow/"/>
+    
+  </entry>
   
   <entry>
     <title>Jupyter(IPython-notebook) Installation</title>
