@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://keren_akaya.com/"/>
-  <updated>2018-01-23T05:02:14.374Z</updated>
+  <updated>2018-01-26T20:04:16.854Z</updated>
   <id>http://keren_akaya.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Jupyter(IPython-notebook) Installation</title>
+    <link href="http://keren_akaya.com/2018/01/26/Jupyter-IPython-notebook-Installation/"/>
+    <id>http://keren_akaya.com/2018/01/26/Jupyter-IPython-notebook-Installation/</id>
+    <published>2018-01-26T20:00:31.000Z</published>
+    <updated>2018-01-26T20:04:16.854Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Jupyter-IPython-note-Installation"><a href="#Jupyter-IPython-note-Installation" class="headerlink" title="Jupyter(IPython-note) Installation"></a>Jupyter(IPython-note) Installation</h2><p>Just a backup.</p><ol><li><p>Install Jupyter</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">pip3 install --user jupyter</div></pre></td></tr></table></figure><p>​</p></li><li><p>In command-line:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">python -m IPython notebook</div></pre></td></tr></table></figure></li></ol><p>A new window will be pop up ( <a href="http://localhost:8889/tree" target="_blank" rel="external">http://localhost:8889/tree</a>)</p><p>In the top right corner you can new and upload new files, create terminal, etc.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;Jupyter-IPython-note-Installation&quot;&gt;&lt;a href=&quot;#Jupyter-IPython-note-Installation&quot; class=&quot;headerlink&quot; title=&quot;Jupyter(IPython-note) Inst
+      
+    
+    </summary>
+    
+      <category term="learning" scheme="http://keren_akaya.com/categories/learning/"/>
+    
+    
+      <category term="installation" scheme="http://keren_akaya.com/tags/installation/"/>
+    
+  </entry>
   
   <entry>
     <title>String&amp;StringBuffer&amp;StringBuilder</title>
